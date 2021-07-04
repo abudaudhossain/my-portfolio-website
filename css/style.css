@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.menu-bar{
+    background-color: #2b2644;
+    padding: 10px;
+}
+.nav-link{
+    font-size: 16px;
+    margin: 3px;
+    color: #fff!important;
+    font-weight: 500px;
+}
+.navbar-nav{
+    
+}
+.menu-bar .navbar-toggle{
+    padding-right: 20px;
+    outline: none!important;
+    border: none !important;
+}
+.navbar .fas{
+    color: #fff!important;
+    font-size: 20px;
+}
+
+header{
+    height:100vh;
+    background: linear-gradient(rgba(98, 87, 182, 0.973),rgba(98, 87, 182, 0.877)), url("../img/bg_img.jpeg") no-repeat center center /cover;
+	color: #fff;
+	
+}
+.hd_text_container{
+    padding: 250px 10px 0 0;
+    box-sizing: border-box;
+    position: absolute;
+    top:0;
+}
+h1{
+    font-size: 60px;
+
+}
+.hd_img_contenr{
+
+   
+}
+.hd_img_contenr img{
+    height:100vh;
+    width:100%;
+}
+
+.active_time{
+    background:#fff;
+    /* box-sizing: border-box; */
+    padding:100px 0px;
+}
+
+.card{
+    background-color:#564AB1;
+    color: #fff;
+    padding: 30px;
+    border-radius:15px;
+    box-shadow: rgba(120, 46, 240, 0.4) -2.5px 2.5px, rgba(137, 46, 240, 0.3) -5px 5px;
+    transition: all 0.5s;
+}
+
+.card:hover{
+    background-color:#FE805C;
+    box-shadow: rgba(235, 93, 11, 0.4) -2.5px 2.5px, rgba(240, 59, 46, 0.3) -5px 5px;
+}
+.card .icon{
+    font-size:60px;
+
+    }
+.icon_box{
+    position:relative;
+}
+.card h3{
+    padding-top:30px;
+    margin-bottom:0px !important;
+    position:absolute;
+    top: 60%;
+}
+.card-body{
+    padding:0 0 0 30px;
+}
+.card-body p{
+    padding-top:30px;
+    margin-bottom:0px !important;
+}
+
+
+#about{
+    height:100vh;
+    padding: 30px 0px;
+}
+.img_area{
+    width:440px;
+    height:500px;
+    position:relative;
+    float:right;
+    padding-left: 20px;
+  
+}
+.img_area img{
+    max-height: 480px;
+    border-radius: 10px;
+}
+.img_area .pr_img{
+    width:200px;
+    height: 250px;
+    position:absolute;
+    bottom:-5%;
+    left:-7%;
+    background:rgb(248, 248, 248);
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.aboutpara p{
+    color:rgb(77, 75, 75);
+}
+.pt{
+   padding-top:15px;
+}
+.pb{
+    padding-bottom: 15px;
+}
+
+.skil .card{
+    padding:5px;
+    box-sizing: border-box;
+    background:none;
+    color:#19152e;
+}
+.icon_boxa .icon{
+    color:#564AB1
+}
+.more{
+    margin-top:40px;
+}
+.more a{
+    text-decoration:none;
+    padding:20px 30px;
+    background: rgb(240, 97, 53);
+    color:#fff;
+    border-radius: 50px;
+}
+.cont .phone{
+    color:rgb(240, 97, 53);
+}
+.cont .phone span{
+    padding:5px;
+    font-size: 20px;
+}
+#skill{
+    min-height: 50vh;
+}
+.skill .card{
+    padding:0px;
+}
+.skill .card span{
+   font-size:100px
+}
+
+
