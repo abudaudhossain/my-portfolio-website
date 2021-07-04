@@ -165,4 +165,17 @@ h1{
    font-size:100px
 }
 
-
+.sk{
+    text-decoration: none;
+    background:#FE805C;
+    padding: 5px 10px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 2px;
+    transition: all 0.1s;
+    /* float:left; */
+}
+.skill .card:hover .sk{
+    background: #564AB1;
+    color:#fff;
+}
